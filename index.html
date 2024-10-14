@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space adventor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+    
+</head>
+<body>
+    <div class="fixed text-white textsm ml-2 mt-1 select-none" ><span>score :</span><span id="scoreEl">0</span></div>
+    <div class="fixed inset-0 flex items-center justify-center" id="modalEl">
+        <div class="bg-white max-w-md w-full p-6 text-center">
+            <h1 class="text-4xl font-bold leading-none" id="bigScoreEl">0</h1>
+            <p>Points</p>
+            <div >
+            <button class="bg-blue-500 text-white w-full py-3 rounded-full text-sms"id="startButton">Start game</button>
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="java.js"></script>
+</body>
+</html>
