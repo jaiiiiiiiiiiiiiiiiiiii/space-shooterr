@@ -143,7 +143,6 @@ function init(){
      score = 0;
      scoreEl.innerHTML=score
      bigScoreEl.innerHTML=score
-     basegamesound.play();
 }
 
 let animationId 
